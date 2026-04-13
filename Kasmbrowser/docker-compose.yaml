@@ -1,4 +1,3 @@
-version: '3.7'
 services:
   kasm_chrome:
     image: kasmweb/chrome:latest

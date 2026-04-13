@@ -6,7 +6,7 @@ services:
       - "8001:8001"
     environment:
       - KASM_GPU=false
-      - KASM_VNC_PASSWORD=yourpassword
+      - KASM_VNC_PASSWORD=set0ings
     networks:
       - kasm-net
 networks:

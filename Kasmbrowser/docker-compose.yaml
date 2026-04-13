@@ -1,6 +1,6 @@
 services:
   kasm_chrome:
-    image: kasmweb/chrome:latest
+    image: kasmweb/chrome
     ports:
       - "8001:8001"
     environment:

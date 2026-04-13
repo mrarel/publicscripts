@@ -7,7 +7,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Berlin
-      - CHROME_CLI=https://www.google,com/ #optional
+      - CHROME_CLI=https://www.google.com/ #optional
     volumes:
       - /opt/dockerdir/Chromebrowser:/config
     ports:
